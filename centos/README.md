@@ -12,3 +12,4 @@ $ sudo ./mkimage-yum.sh
 >                    default is /etc/yum.conf for Centos/RHEL and /etc/dnf/dnf.conf for Fedora
 >   -t <tag>         Specify Tag information.
 >                    default is reffered at /etc/{redhat,system}-release
+ 
