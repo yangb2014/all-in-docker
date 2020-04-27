@@ -64,4 +64,4 @@ https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstanc
 
 ## 12.1.0.2 sample
     docker build --rm -t oracle/database:12.1.0.2-ee -f Dockerfile.ee . 
-    docker run -d -p 1521:1521 -p 8080:8080 -e ORACLE_SID=orcl --name oracle12g oracle/database:12.1.0.2-ee 
+    docker run -d -p 1521:1521 -p 8080:8080 -e ORACLE_SID=orcl --name oracle12g oracle/database:12.1.0.2-ee
