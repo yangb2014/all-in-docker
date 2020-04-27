@@ -1,0 +1,14 @@
+# test dockerfile
+
+FROM centos:latest 
+MAINTAINER yangb
+USER root
+
+ENV JAVA_HOME /usr/java/default
+
+ADD README.md /README.md
+
+RUN echo 'hello world!' > /hellotest
+
+CMD date >>/uptime
+
