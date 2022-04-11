@@ -1,20 +1,27 @@
-# Basic docker images   
-https://hub.docker.com/   
-https://docs.docker.com/engine/reference/run/   
+# docker basics   
+## docker docs   
+https://docs.docker.com/   
+https://docs.docker.com/get-started/   
+https://docs.docker.com/reference/   
+https://docs.docker.com/samples/   
    
-## test   
+## docker hub   
+https://hub.docker.com/   
+   
+## docker compose   
+https://docs.docker.com/compose/   
    
 ## CentOS   
 https://github.com/CentOS/sig-cloud-instance-images/   
-   
-## OpenJDK   
-https://github.com/docker-library/openjdk/   
    
 ## Oracle Linux   
 https://github.com/oracle/container-images/   
    
 ## Oracle Database   
 https://github.com/oracle/docker-images/   
+   
+## OpenJDK   
+https://github.com/docker-library/openjdk/   
    
 ## Redis & Sentinel   
 https://github.com/docker-library/redis/   
