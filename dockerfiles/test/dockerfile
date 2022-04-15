@@ -1,7 +1,8 @@
 # test dockerfile
+#   docker build --rm -t test .   
+#   docker run -it test /bin/bash   
 
-FROM centos:latest 
-MAINTAINER yangb
+FROM centos:7.9.2009 
 USER root
 
 ENV JAVA_HOME /usr/java/default
