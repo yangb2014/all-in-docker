@@ -17,3 +17,9 @@ cat > /etc/docker/daemon.json << EOF
 EOF
 
 sudo systemctl start docker
+
+# manage docker as a none-root user
+# sudo groupadd docker
+# sudo usermod -G docker cross
+# id cross
+# groups cross
