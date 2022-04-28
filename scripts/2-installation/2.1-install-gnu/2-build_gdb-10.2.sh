@@ -14,6 +14,9 @@ wget -nc http://ftpmirror.gnu.org/gnu/gdb/$GDB_VERSION.tar.xz
 # Extract everything
 for f in *.tar*; do tar xfk $f; done
 
+# prerequisites
+sudo yum -y install python python-devel texinfo
+
 # Build & install
 mkdir -p build-gdb
 cd build-gdb

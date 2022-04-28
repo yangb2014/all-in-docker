@@ -1,5 +1,5 @@
 #! /bin/bash
-echo `date` "---->> setting DNS servers"
+echo `date` "---->> setting DNS nameserver"
 
 RESOLV_FILE="/etc/resolv.conf"
 

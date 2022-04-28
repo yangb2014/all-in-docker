@@ -1,5 +1,5 @@
 #! /bin/bash
-echo `date` "---->> setting samba"
+echo `date` "---->> install & setting samba"
 
 sudo yum -y install samba
 sudo systemctl start smb
