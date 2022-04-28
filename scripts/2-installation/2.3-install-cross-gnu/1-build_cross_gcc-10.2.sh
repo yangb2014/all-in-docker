@@ -29,7 +29,7 @@ export PATH=$GCC_INSTALL_PATH/bin:$PATH
 
 # Download packages
 wget -nc http://ftpmirror.gnu.org/binutils/$BINUTILS_VERSION.tar.gz
-wget -nc http://ftpmirror.gnu.org/gcc/$GCC_VERSION/$GCC_VERSION.tar.gz
+wget -nc http://ftpmirror.gnu.org/gcc/$GCC_VERSION/$GCC_VERSION.tar.xz
 wget -nc https://www.kernel.org/pub/linux/kernel/v3.x/$LINUX_KERNEL_VERSION.tar.xz --no-check-certificate
 wget -nc http://ftpmirror.gnu.org/glibc/$GLIBC_VERSION.tar.xz
 wget -nc http://ftpmirror.gnu.org/gmp/$GMP_VERSION.tar.xz

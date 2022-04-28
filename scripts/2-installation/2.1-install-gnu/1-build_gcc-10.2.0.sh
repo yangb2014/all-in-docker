@@ -14,7 +14,7 @@ CONFIGURATION_OPTIONS="--disable-multilib" # --disable-threads --disable-shared
 PARALLEL_MAKE=-j$(nproc)
 
 # Download packages
-wget -nc http://ftpmirror.gnu.org/gcc/$GCC_VERSION/$GCC_VERSION.tar.gz
+wget -nc http://ftpmirror.gnu.org/gcc/$GCC_VERSION/$GCC_VERSION.tar.xz
 wget -nc http://ftpmirror.gnu.org/gmp/$GMP_VERSION.tar.xz
 wget -nc http://ftpmirror.gnu.org/mpfr/$MPFR_VERSION.tar.xz
 wget -nc http://ftpmirror.gnu.org/mpc/$MPC_VERSION.tar.gz
